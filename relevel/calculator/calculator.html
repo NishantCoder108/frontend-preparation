@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="calculator.js" defer></script>
+
+    <style>
+      .noselect {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+        -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+      }
+
+      textarea {
+        height: 48px;
+        width: 369px;
+        resize: none;
+      }
+      div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      td {
+        /* margin: 12px; */
+        width: 23px;
+        height: 13px;
+        padding: 12px;
+        border: 2px solid grey;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Calculator</h1>
+
+    <div class="noselect">
+      <table>
+        <thead>
+          <tr>
+            <textarea rows="3"></textarea>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Rad</td>
+            <td>Deg</td>
+            <td>X!</td>
+            <td>(</td>
+            <td>)</td>
+            <td>%</td>
+            <td>AC</td>
+          </tr>
+
+          <tr>
+            <td>Inv</td>
+            <td>Sin</td>
+            <td>ln</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>÷</td>
+          </tr>
+
+          <tr>
+            <td>π</td>
+            <td>cos</td>
+            <td>log</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>x</td>
+          </tr>
+
+          <tr>
+            <td>e</td>
+            <td>tan</td>
+            <td>√</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>-</td>
+          </tr>
+
+          <tr>
+            <td>Ans</td>
+            <td>EXP</td>
+            <td>
+              X<sup><small>y</small></sup>
+            </td>
+            <td>0</td>
+            <td>.</td>
+            <td>=</td>
+            <td>+</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

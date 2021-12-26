@@ -1,4 +1,4 @@
-let array = [3, 5, -4, 8, 11, 1, -1, 6];
+let array = [3, 5, -4, 8, 11, 1, -1, 6, 4];
 let targetSum = 10;
 
 // function twoNumberSum(array, targetSum) {
@@ -19,8 +19,8 @@ console.log(twoNumberSum(array, targetSum));
 
 function twoNumberSum(array, targetSum) {
   // Write your code here.
-  array.sort((a, b) => b - a);
-  console.log(array)
+  array.sort((a, b) => a-b);
+  console.log(array);
   let left = 0;
   let right = array.length - 1;
 
@@ -34,6 +34,7 @@ function twoNumberSum(array, targetSum) {
     } else if (currentSum > targetSum) {
       right--;
     }
+    
   }
   return [];
 }
