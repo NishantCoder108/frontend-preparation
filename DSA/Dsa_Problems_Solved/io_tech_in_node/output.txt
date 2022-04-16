@@ -1,0 +1,13 @@
+Total Natual Number is : 11
+Natural Array is : [
+  1, 7, 6,  5,
+  4, 8, 9, 10
+]
+Sorting Natural Array is : [
+  1, 4, 5,  6,
+  7, 8, 9, 10
+]
+New Array is :  [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, <9 empty items> ]
+Missing Array is :- [ 2, 3, 11 ]
+Missing Number is :- 2 3 11
+

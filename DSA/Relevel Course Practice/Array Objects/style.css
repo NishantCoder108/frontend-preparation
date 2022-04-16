@@ -1,0 +1,18 @@
+body{
+    margin: auto;
+    text-align: center;
+
+}
+#randomSelectContainer{
+    display: flex;
+    justify-content: center;
+}
+.randomItem{
+    background-color: tomato;
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+}
+.active{
+    background-color: green;
+}
