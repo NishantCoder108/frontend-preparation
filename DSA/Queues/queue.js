@@ -59,3 +59,7 @@ queue.shift()
 console.log('Removed Beginning Element: ',queue.shift())
 console.log(queue)
 */
+
+
+
+//Stack and  Queue are Linear DataStructure
