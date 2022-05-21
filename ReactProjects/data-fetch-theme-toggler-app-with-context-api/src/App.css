@@ -1,0 +1,7 @@
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(79, 133, 19);
+  flex-direction: column;
+}

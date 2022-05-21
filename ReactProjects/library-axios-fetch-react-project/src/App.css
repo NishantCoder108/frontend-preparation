@@ -1,0 +1,10 @@
+.app{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.app_body{
+  display: flex;
+/* margin-top: 200px; */
+}

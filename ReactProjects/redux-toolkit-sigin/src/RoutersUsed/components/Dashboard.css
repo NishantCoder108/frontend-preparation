@@ -1,0 +1,11 @@
+.dashboard-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.dashboard{
+
+    background-color: navy;
+}

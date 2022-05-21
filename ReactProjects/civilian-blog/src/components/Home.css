@@ -1,0 +1,7 @@
+.topic_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    justify-content: space-evenly;
+    padding-bottom: 51px;
+  }

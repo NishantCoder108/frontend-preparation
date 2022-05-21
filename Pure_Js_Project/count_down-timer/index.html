@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="countdown.js" defer></script>
+    <script src="fetchdata.js" defer></script>
+  </head>
+  <body>
+      <div id="container">
+        <div>
+    <button><input type="datetime-local" id="input-date" /></button>
+    <button  id="click">Click</button>
+</div>
+    <table>
+ <tr>
+      <td class="round">
+        <p id="days">000</p>
+        <p>Days</p>
+      </td class="round">
+      <td class="round">
+        <p id="hrs">00</p>
+        <p>Hrs</p>
+      </td>
+      <td class="round">
+        <p id="mins">00</p>
+        <p>Min</p>
+      </td>
+      <td  class="round">
+        <p id="seconds">00</p>
+        <p>Sec</p>
+      </td>
+    </tr>
+
+    </table>
+   </div>
+   <div class="fetch-data">
+       <h1 style="text-align: center; padding-top: 9px;">Fetching Data From Api</h1>
+    <div id="posts-data"></div>
+   
+   </div>
+  </body>
+</html>

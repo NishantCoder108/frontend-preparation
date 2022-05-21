@@ -1,0 +1,77 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Fear Not: Be Strong",
+      "author": "Swami Vivekanand",
+      "genre": "Biography",
+      "summary": "Be Strong not fear "
+    },
+    {
+      "title": "My Journey",
+      "author": "Dr.A.P.J.Abdul Kalam",
+      "genre": "Biography",
+      "summary": "How to live Life ",
+      "id": 2
+    },
+    {
+      "title": "Making of New India",
+      "author": "Dr. Bibek Debroy",
+      "genre": "Cricket",
+      "summary": "Cricket throung making of new India",
+      "id": 4
+    },
+    {
+      "title": "Making of New India",
+      "author": "Dr. Bibek Debroy",
+      "genre": "Cricket",
+      "summary": "Cricket throung making of new India",
+      "id": 5
+    },
+    {
+      "title": "Making of New India",
+      "author": "Dr. Bibek Debroy",
+      "genre": "Cricket",
+      "summary": "Cricket throung making of new India",
+      "id": 6
+    },
+    {
+      "title": "The Power of your Subconscious Mind ",
+      "author": "Dr. Joseph Murphy",
+      "genre": "Education",
+      "summary": "How to use 100% of Mind",
+      "id": 7
+    },
+    {
+      "title": "AS A Man Thinketh",
+      "author": "James Allen",
+      "genre": "Education",
+      "summary": "How people think",
+      "id": 8
+    },
+    {
+      "title": "2 State",
+      "author": "Chetan Bhagat",
+      "genre": "Romance",
+      "summary": "this about life",
+      "id": 9
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

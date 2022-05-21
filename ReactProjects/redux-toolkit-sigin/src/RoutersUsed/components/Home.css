@@ -1,0 +1,10 @@
+.home{
+    background-color: tomato;
+    height: 90vh;
+}
+
+.home-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

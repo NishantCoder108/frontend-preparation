@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 53, 56);
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clock{
+    color: rgb(255, 255, 255);
+    font-size: 110px;
+    border-top: 1px solid wheat;
+}

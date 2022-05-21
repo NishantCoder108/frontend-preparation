@@ -1,0 +1,49 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 100px;
+    padding:10px;
+    align-items: center;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition:0.2s ease-in-out;
+}
+
+.card_title{
+    margin-bottom: 20px;
+}
+
+.card_description{
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.card_summary{
+    width: 100%;
+    justify-content: flex-start;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.card_buttons{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+   
+}
+.button{
+    margin-right: 20px;
+    font-size: 1rem;
+    padding: 3.6px 2.9px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 21px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.text{
+    text-decoration: none;
+    cursor: pointer;
+    color: lightblue;
+    font-weight: bold;
+}

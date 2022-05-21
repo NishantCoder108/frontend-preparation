@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding: 21px;
+}
+
+.nav .styles{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}

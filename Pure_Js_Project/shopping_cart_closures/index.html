@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart With Closures</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Shopping Cart with Closures</h1>
+      <p>
+        We are adding to product to add to cart and his total money will sum
+      </p>
+
+      <div class="product">
+        <div>
+          <h2 class="product_title">React js Developer</h2>
+          <p>Product Description</p>
+          <h5 class="product_price">$5</h5>
+          <button>Add To Cart</button>
+        </div>
+        <div>
+          <h2 class="product_title">JavaScript Mastery</h2>
+          <p>Product Description</p>
+          <h5 class="product_price">$25</h5>
+          <button>Add To Cart</button>
+        </div>
+        <div>
+          <h2 class="product_title">Node js Developer</h2>
+          <p>Product Description</p>
+          <h5 class="product_price">$25</h5>
+          <button>Add To Cart</button>
+        </div>
+        <div>
+          <h2 class="product_title">Backend Developer</h2>
+          <p>Product Description</p>
+          <h5 class="product_price">$25</h5>
+          <button>Add To Cart</button>
+        </div>
+        <div>
+          <h2 class="product_title">CSS Mastery</h2>
+          <p>Product Description</p>
+          <h5 class="product_price">$25</h5>
+          <button>Add To Cart</button>
+        </div>
+        <div>
+          <h2 class="product_title">BootStrap Mastery</h2>
+          <p>Product Description</p>
+          <h5 class="product_price">$15</h5>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+      <div class="cart">
+        <!-- <h1>Cart</h1> -->
+        <ol id="cart_details"></ol>
+        <div id="total">
+          <table>
+            <tbody>
+              <tr>
+                <td>Items</td>
+                <td>Total</td>
+              </tr>
+              <tr>
+                <td id="nItems"></td>
+                <td id="tItems"></td>
+              </tr>
+              <tr>
+                <td><button onclick='empty()'>Empty Cart</button></td>
+                <td><button>Checkout</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

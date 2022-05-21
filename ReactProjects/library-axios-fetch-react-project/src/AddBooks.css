@@ -1,0 +1,22 @@
+.addBooks{
+    display: flex;
+   
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    /* border: 1px solid red; */
+    align-content: flex-start;
+    margin: 0 28px;
+}
+
+/* .addBooks_label{
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px 15px;
+} */
+
+.addBooks_input{
+    height: 25px;
+    margin-bottom: 10px;
+    width: 300px;
+}

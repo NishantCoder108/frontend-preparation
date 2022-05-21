@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR in HIGHER ORDER FUNCTION</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" defer></script>
+  </head>
+  <body>
+    <div class="calcDesign">
+      <div>
+        <label for="radius">Enter the Radius</label>
+        <input
+          type="number"
+          name="radius"
+          id="radius"
+          maxlength="9"
+          value=""
+          placeholder="Enter the Radius"
+        />
+      </div>
+      <div>
+        <span>Calculate :- </span>
+        <button >Diameter </button>
+        <button >Circumference of Circle   </button>
+        <button >Area of Circle </button>
+      </div>
+
+      <div>
+        <span>Result :-</span>
+        <input type="text" name="result" disabled placeholder="Result will show here..." id="result" value="" />
+        <button id="reset" >Reset</button>
+      </div>
+
+      <p id="numOfClickReset"></p>
+    </div>
+  </body>
+</html>
