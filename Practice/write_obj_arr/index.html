@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Create Arrays inside objects, Objects inside objects, Objects inside
+      arrays.
+    </title>
+    <script src="index.js" defer></script>
+
+    <style>
+      pre {
+        background-color: black;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        border: 2px solid rgb(255, 255, 255);
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Create Arrays inside objects, Objects inside objects, Objects inside
+      arrays.
+    </h1>
+
+    <pre><code>
+      
+        //Create Arrays inside Objects____
+
+        const arrInsideObj = {
+          firstName: "Nishant",
+          lastName: "Kumar",
+          fullName: ["Nishant", "Kumar", "Civil", false, undefined, null, "Elon Musk"],
+        };
+        
+
+        //Create Objects inside Objects___
+
+        const objInsideObj = {
+          fruit: "Mango",
+          obj: {
+            name: "Nishant Kumar",
+            branch: "Civil",
+            Undefine: undefined,
+            Null: null,
+            Boolean: Boolean,
+          },
+        };
+        
+        
+        //Create Objects inside arrays____
+
+        const objInsideArr = [
+          "Mango",
+          "Guava",
+          "Orange",
+          {
+            name: "Nishant Kumar",
+            branch: "Civil",
+            Undefine: undefined,
+            Null: null,
+            Boolean: Boolean,
+          },
+        ];
+        
+        
+        
+        console.log('arrInsideObj :-',arrInsideObj)
+        console.log('objInsideObj :-',objInsideObj)
+        console.log('objInsideArr :-',objInsideArr)
+       
+     
+    </code> </pre>
+  </body>
+</html>

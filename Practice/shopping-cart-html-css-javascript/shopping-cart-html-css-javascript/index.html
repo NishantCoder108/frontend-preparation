@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="CodeHim">
+    <title>Shopping Cart Example</title>
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Demo CSS (No need to include it into your project) -->
+	<link rel="stylesheet" href="css/demo.css">
+  
+  </head>
+  <body>
+ <header class="intro">
+ <h1>Shopping Cart Example</h1>
+ <p>A shopping cart system in HTML CSS &amp; JavaScript.</p>
+
+ <div class="action">
+ <a href="https://www.codehim.com/collections/javascript-shopping-cart-examples-with-demo/" title="Back to download and tutorial page" class="btn back">Back to Tutorial</a>
+ </div>
+ </header>
+  
+      
+ <main>
+     <!-- Start DEMO HTML (Use the following code into your project)-->
+    <div class="container"> 
+   <h1>Simple JavaScript Shopping Cart</h1>
+   <p>Simplified 'add to cart' functionality. Uses Javascript
+   and WebStorage API/Cookies to remember cart data converted to JSON format.</p>
+   <p>Click 'Empty Cart' button to remove session cookies from browser.</p>
+   <div id="alerts"></div>
+<div class="productcont">
+        <div class="product">
+            <h3 class="productname">Product 1</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$5.05</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Product 2</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$8.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        <div class="product">
+            <h3 class="productname">Product 3</h3>
+            <p>Product description excerpt...</p>
+            <p class="price">$10.50</p>
+            <button class="addtocart">Add To Cart</button>
+        </div>
+        </div>
+        <div class="cart-container">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+              <th><strong>Product</strong></th>
+              <th><strong>Price</strong></th>
+            </tr>
+            </thead>
+            <tbody id="carttable">
+            </tbody>
+          </table>
+          <hr>
+          <table id="carttotals">
+            <tr>
+              <td><strong>Items</strong></td>
+              <td><strong>Total</strong></td>
+            </tr>
+            <tr>
+              <td>x <span id="itemsquantity">0</span></td>
+             
+              <td>$<span id="total">0</span></td>
+            </tr></table>
+
+            
+          <div class="cart-buttons">  
+            <button id="emptycart">Empty Cart</button>
+            <button id="checkout">Checkout</button>
+          </div>
+        </div>
+</div>
+<!-- partial -->
+
+     <!-- END EDMO HTML (Happy Coding!)-->
+ </main>
+ 
+      
+  <footer class="credit">Author: Jasmine Smalley - Distributed By: <a title="Awesome web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>
+
+        <script  src="./js/script.js"></script> 
+  </body>
+</html>

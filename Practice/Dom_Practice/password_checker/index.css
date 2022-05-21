@@ -1,0 +1,24 @@
+body{
+   margin: 10px;
+}
+#password ,label{
+    margin: 6px;
+    font-size: larger;
+}
+#password-type{
+    font-size: 30px;
+    color: black;
+}
+
+#password-hint{
+    font-size: medium;
+    color: #000;
+}
+
+#password-indicator{
+    height: 6px;
+    width: 30vw;
+    margin: 9px;
+    /* background-color: blueviolet; */
+    border-radius: 10px;
+}

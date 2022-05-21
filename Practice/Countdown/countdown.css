@@ -1,0 +1,70 @@
+.container{
+    width: 100vw;
+margin: 0px;
+    height: 80vh;
+    background: linear-gradient(orange, rgb(74, 96, 221),green);
+   
+   text-align: center;
+ 
+}
+
+.wrap{
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    padding: 39px;
+   
+    flex-wrap: nowrap;
+   
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.watch{
+    width: 90px;
+    font-size: 30px;
+    border: 2px solid rgb(101, 117, 128);
+    color: white;
+}
+
+
+
+
+body{
+    text-align: center;
+    background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+ #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}

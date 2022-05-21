@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor corporis earum accusamus, tempora laboriosam aliquam
+      aut. Quaerat, velit?
+    </p>
+    <p>
+      Lorem ipsum dolor corporis earum accusamus, tempora laboriosam aliquam
+      aut. Quaerat, velit?
+    </p>
+    <p class="note">
+      Lorem ipsum dolor corporis earum accusamus, tempora laboriosam aliquam
+      aut. Quaerat, velit?
+    </p>
+    <p class="note">
+      Lorem ipsum dolor corporis earum accusamus, tempora laboriosam aliquam
+      aut. Quaerat, velit?
+    </p>
+
+    <script>
+      let element = document.getElementsByClassName("note");
+      console.log(element);
+
+      for (let i = 0; i < element.length; i++) {
+        console.log(element[i].innerHTML);
+      }
+    </script>
+  </body>
+</html>
