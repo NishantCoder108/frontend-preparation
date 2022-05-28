@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    flex-grow: 1;
+    /* width: 100vw; */
+    height: 60px;
+    flex-shrink: 1;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    background-color: rgb(218, 255, 163);
+}
+
+.nav div{
+    display: flex;
+    justify-content: space-evenly;
+   width: 50vw;
+     /* flex-shrink: 01;
+    flex-basis: 1; */
+}
+
+.nav button{
+    width: 60px;
+    font-weight: bold;
+    color: red;
+    background-color: aliceblue;
+    font-size: 15px;
+    padding: 3px;
+    /* height: 19px; */
+    border: none;
+}
